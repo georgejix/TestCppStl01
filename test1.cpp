@@ -1,6 +1,7 @@
+#include "test1.h"
 #include<iostream>
 
-int main(){
+void test1(){
     int i1 = 1;
     std::cout<<"i1="<<i1<<std::endl;
 
@@ -25,6 +26,4 @@ int main(){
     delete []p3;
     //已经释放，此时打印的是脏数据
     std::cout<<"p3="<<*p3<<","<<*(p3+1)<<std::endl;
-
-
 }
