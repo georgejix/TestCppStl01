@@ -2,6 +2,7 @@
 #include<iostream>
 
 void test1(){
+    std::cout<<"test1"<<std::endl;
     int i1 = 1;
     std::cout<<"i1="<<i1<<std::endl;
 
@@ -26,4 +27,15 @@ void test1(){
     delete []p3;
     //已经释放，此时打印的是脏数据
     std::cout<<"p3="<<*p3<<","<<*(p3+1)<<std::endl;
+
+    //实例化引用类型b，指向a，b和a指向同一内存地址
+    int a = 1;
+    int &b = a;
+    b = 2;
+    std::cout<<"&a="<<&a<<",&b="<<&b<<std::endl;
+    std::cout<<"a="<<a<<",b="<<b<<std::endl;
+
+    int c = 3, *d = &c, *&e = d, *f = d;
+    std::cout<<"c="<<c<<",*d="<<*d<<",*e="<<*e<<",*f="<<*d<<std::endl;
+    std::cout<<"&c="<<&c<<",d="<<d<<",e="<<e<<",f="<<f<<std::endl;
 }
