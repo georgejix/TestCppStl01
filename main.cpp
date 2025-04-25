@@ -7,6 +7,7 @@
 #include "test7.h"
 #include "test8.h"
 #include "test9.h"
+#include "test10.h"
 
 int main(){
     //test1();
@@ -17,6 +18,7 @@ int main(){
     //test6();
     //test7();
     //test8();
-    test9();
+    //test9();
+    test10();
     return 0;
 }
