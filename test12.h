@@ -19,3 +19,4 @@ class Class12_2{
 class Class12_3:public Class12_1, public Class12_2{
 
 };
+Class12 add(Class12 c1, Class12 c2);
