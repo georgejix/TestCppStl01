@@ -6,3 +6,9 @@
 
 
 2.运行命令g++ -g  *.cpp -o main & ./main
+
+
+
+
+
+c++容器：vector,list,queue,stack,dqeue,map,set,bitset
