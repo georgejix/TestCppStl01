@@ -1,3 +1,4 @@
 #!/bin/sh
-g++ -g  *.cpp -o main
-./main 
+mkdir build
+g++ -g  *.cpp -o build/main
+./build/main 
