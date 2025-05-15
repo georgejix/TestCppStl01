@@ -1,6 +1,6 @@
 #include "test10.h"
 
-//友元函数，不需要用过Class10::实现，可以访问Class10的私有变量
+//友元函数，不需要用Class10::实现，可以访问Class10的私有变量
 void printClass10(Class10 &c){
     cout<<"year-month="<<c.year<<"-"<<c.month<<endl;
 }

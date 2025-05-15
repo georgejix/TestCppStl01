@@ -3,6 +3,7 @@ using namespace std;
 
 void test13();
 
+//模板类
 template<class T> class X{
     //typename告诉编译器，将T::id解释为一个类型
     typename T::id i;
@@ -24,3 +25,8 @@ class Y{
                 };
         };
 };
+
+//模板函数，也可写作template<class T>
+template<typename T> void printf13(T& v){
+    cout<<"print13 "<<v<<endl;
+}
