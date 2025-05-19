@@ -12,3 +12,5 @@
 
 
 c++容器：vector,list,queue,stack,dqeue,map,set,bitset
+
+stl是一个c++通用库，他由迭代器(iterators)，算法(algorithms)，容器(containers)，函数对象(function objects)，内存分配器(allocators)五大部分组成
